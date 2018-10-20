@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D4D4D"
+    android:orientation="vertical"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    tools:context="com.example.ashwin.facelock.MainActivity">
+
+    <TextView
+        android:id="@+id/Lock_Screen"
+        android:text="Lock"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/Add_Faces"
+        android:text="Train Face"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/Delete"
+        android:text="Clear Data"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"/>
+</LinearLayout>
